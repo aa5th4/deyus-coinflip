@@ -30,4 +30,19 @@ Smart Contract :-
 10.If a user wins, they will be credited with a sum equal to their stake multiplied by two.
 11.There is no balance transfer if a user wins.
 
-	
+Deployment:-
+Step 1 : In NETWORKS section, chose TESTNET.
+Step 2 : In Wallet section, chose Math Wallet.
+Step 3 : In the Account section, connected the Math Wallet account.
+Step 4 : Set the gas price to 100000000000, to avoid transaction underpriced error.
+
+Step 5 : Selected the CoinFlipGame smart contract and clicked on deploy.
+
+Step 6 : The smart contract was deployed successfully.
+
+Testnet Deployment Address - one19m33sv8yv39hjr9n2ynn3chc2sdnq6dyc5gr7l
+
+A deployed smart contract can be interacted with using the browser and metamask via a “blockchain explorer”.
+The harmony chain’s explorer is at https://explorer.harmony.one/
+On https://explorer.testnet.harmony.one/address/0x2ee31830e4644b790cb3512738e2f8541b3069a4?activeTab=7 by going to “Contract” tab then “Read Contract” or “Write Contract”, we can read many variables of the smart contract and see the various functions that are possible to be called.
+
